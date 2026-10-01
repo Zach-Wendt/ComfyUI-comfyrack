@@ -1,0 +1,20 @@
+[project]
+name = "comfyui-comfyrack"
+version = "0.1.0"
+description = "Instance info and output listing routes for comfyrack / Superflow fleets, and a switch to share ComfyUI on your tailnet"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Zach-Wendt/ComfyUI-comfyrack"
+
+# Used by the Comfy Registry (https://registry.comfy.org).
+[tool.comfy]
+PublisherId = "zach-wendt"
+DisplayName = "comfyrack"
+Icon = "https://raw.githubusercontent.com/Zach-Wendt/ComfyUI-comfyrack/master/icon.svg"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+brief.txt
+.kilo/
+.opencode/
